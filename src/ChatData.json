@@ -1,0 +1,25 @@
+{
+    "saludo": {
+        "outbound": {
+            "masculino": "¡Hola! 🙋🏻‍♂ Soy {{userName}}, asesor comercial de Renovaciones en Claro, América Móvil Perú SAC con RUC 20467534026 📱.\n\n🤩 Aprovecha nuestro canal WhatsApp y obtén un teléfono de última generación con precios exclusivos para ti. 😱 ¡Solo por ser cliente de Claro!\n\n¿Estás interesado en algún equipo en específico? o si gustas te puedo dar una recomendación.",
+            "femenino": "¡Hola! 🙋🏻‍♀ Soy {{userName}}, asesora comercial de Renovaciones en Claro, América Móvil Perú SAC con RUC 20467534026 📱.\n\n🤩 Aprovecha nuestro canal WhatsApp y obtén un teléfono de última generación con precios exclusivos para ti. 😱 ¡Solo por ser cliente de Claro!\n\n¿Estás interesado en algún equipo en específico? o si gustas te puedo dar una recomendación."
+        },
+        "inbound": {
+            "masculino": "¡Hola! Gracias por volver a comunicarte 🙋🏻‍♂ Soy *{{userName}}*, asesor comercial de Renovaciones en Claro, América Móvil Perú SAC con RUC 20467534026 📱 \n\n🤩 Aprovecha nuestro canal *WhatsApp* y obtén un teléfono de última generación con precios exclusivos para ti. 😱 *¡Solo por ser cliente de Claro!* \n\n*¿Estás interesado en algún equipo en específico?* o si gustas te puedo dar *una recomendación.*",
+            "femenino": "¡Hola! Gracias por volver a comunicarte 🙋🏻‍♀ Soy *{{userName}}*, asesora comercial de Renovaciones en Claro, América Móvil Perú SAC con RUC 20467534026 📱 \n\n🤩 Aprovecha nuestro canal *WhatsApp* y obtén un teléfono de última generación con precios exclusivos para ti. 😱 *¡Solo por ser cliente de Claro!* \n\n*¿Estás interesada en algún equipo en específico?* o si gustas te puedo dar *una recomendación.*"
+        }
+    },
+    "preguntasFiltro": {
+        "equipoCliente": "¿Coméntame cuál es la marca y modelo que estás usando actualmente? 📲",
+        "ubicacionCliente": "¡Genial! 😁 Actualmente, ¿te encuentras en *Lima* o *Provincia*? \n\n📍Indícame tu dirección, con el departamento, provincia y distrito 🗺",
+        "lineasAdicionales": "*{{costumerName}}* Mientras te evalúo, ¿sabías que puedes ahorrar dinero en tu línea móvil? 📲\n\n📌Si adquieres una línea adicional *nueva* o en *portabilidad* desde S/ 55.90\n\n📌Obtendrás un *50% de descuento* en la línea de menor plan durante *todo 1 año* 😱🙌 \n\n¿Aparte de este número, tienes otras líneas que *NO sean de CLARO*?",
+        "preferenciasCliente": "Perfecto, y dígame, ¿tiene alguna marca de su agrado como: Honor, Samsung, Iphone, Motorola, ZTE, VIVO, OPPO o Xiaomi?\n\n¿Qué *características* te gustaría mejorar? Tal vez buscas mejor *cámara* 📷, más *RAM* 🧠 o más *memoria interna* 📲 o ¿Alguna otra *característica*?",
+        "presupuestoCliente": "Gracias, *{{costumerName}}* coméntame:\n\n💰 ¿Cuál es el monto que tienes en mente para obtener tu *nuevo equipo*? _y con ello no excederme en tu presupuesto_ 🙌.\n\n_Recuerda que un equipo de calidad puede ser una inversión muy conveniente a largo plazo._",
+        "adicionales": {
+            "modeloAdicional": "Además del modelo que me comentó, ¿ha tenido otro modelo más en mente? 📱 🤔",
+            "alternativa": "Basándonos en el presupuesto que me mencionas, voy a buscar una alternativa que esté acorde al monto 🔍, por favor bríndame un momento ⏳",
+            "gama":"¿Deseas una gama media superior o gama top?🙌\n\n¿Deseas una gama económica o quizás una gama media?🙌"
+        }
+    },
+    "ofrecimiento":
+}

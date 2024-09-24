@@ -1,7 +1,7 @@
 {
     "saludo": {
         "outbound": {
-            "masculino": "¡Hola! 🙋🏻‍♂ Soy {{userName}}, asesor comercial de Renovaciones en Claro, América Móvil Perú SAC con RUC 20467534026 📱.\n\n🤩 Aprovecha nuestro canal WhatsApp y obtén un teléfono de última generación con precios exclusivos para ti. 😱 ¡Solo por ser cliente de Claro!\n\n¿Estás interesado en algún equipo en específico? o si gustas te puedo dar una recomendación.",
+            "masculino": "¡Hola! 🙋🏻‍♂ Soy *{{userName}}*, asesor comercial de Renovaciones en Claro, América Móvil Perú SAC con RUC 20467534026 📱.\n\n🤩 Aprovecha nuestro canal WhatsApp y obtén un teléfono de última generación con precios exclusivos para ti. 😱 ¡Solo por ser cliente de Claro!\n\n¿Estás interesado en algún equipo en específico? o si gustas te puedo dar una recomendación.",
             "femenino": "¡Hola! 🙋🏻‍♀ Soy {{userName}}, asesora comercial de Renovaciones en Claro, América Móvil Perú SAC con RUC 20467534026 📱.\n\n🤩 Aprovecha nuestro canal WhatsApp y obtén un teléfono de última generación con precios exclusivos para ti. 😱 ¡Solo por ser cliente de Claro!\n\n¿Estás interesado en algún equipo en específico? o si gustas te puedo dar una recomendación."
         },
         "inbound": {
@@ -27,6 +27,11 @@
         "contado": "Gracias por tu espera, *{{customerName}}*\n\nRealizando la evaluación, aplicas al beneficio de *pago al contado*\n😃 Puedes llevarte el equipo de la siguiente manera:\n📱Equipo: {{customerGear}}\n💲 Pago al contado: S/ {{gearPrice}} *(Único pago)*\n💰 Descuento con Claro Puntos: S/ {{customerPoints}}\n📈 Plan: S/. {{customerPlan}} 🌐 {{gbPlan}}GB de internet ilimitado para que navegues en “alta velocidad\" 🤑 📞 llamadas y ✉️ SMS nacionales ilimitados.\n📄 Contrato: 18 meses\n📹 ¡Claro Video Gratis por 24 meses!",
         "equipoOfertado": "¡El {{customerGear}} es un teléfono inteligente con *grandes prestaciones*!\n\n☁ {{storageGear}} GB Almacenamiento: Guardarás gran cantidad de información.\n📸 {{cameraGear}} MP Cámara: Alta calidad y nitidez.\n🧠 {{ramGear}} GB RAM: Excelente rendimiento en aplicativos.\n\nSujeto a stock y a evaluación crediticia.",
         "accesorio": "{{customerName}}, gracias a que has adquirido el equipo {{customerGear}} se te está brindando la opción de que obtengas un accesorio a precio promocional de tan solo S/{{accesoryPrice}} y lo mejor es que te lo podemos enviar gratis a tu dirección ",
+        "proteccionMovil": {
+            "ofrece": "✅ Protege tu inversión por [copiar opción según gama]\n✅ Usa tu nuevo celular con tranquilidad sabiendo que está protegido. 🛡️\n✅ Ahorra. No deberás pagar la totalidad de un nuevo equipo. 💵\n✅ No está sujeto a contratos. \n\n¿Protegemos tu nuevo celular? 😊🔒\n\n{{pmXday}}",
+            "noDesea": "¡Anímate! 😃 A todos nos ha pasado alguna vez que se nos ha caído el celular al suelo 📲💥, al agua 💦🌊, se nos ha quebrado la pantalla 📵😢 o hemos sufrido algún robo 🔒🚫. Por eso, es importante proteger tu nuevo móvil 🛡️, considerando que estás haciendo un esfuerzo para adquirirlo. 💪💰",
+            "noDesea2": "¡Perfecto, {{customerName}}! No hay ningún problema. Si decides proteger tu nuevo celular, simplemente tienes que ponerte en contacto al 123 ☎️ o acercarte a uno de nuestros centros de atención 🏢. Tienes hasta 30 días a partir de la recepción de tu equipo para hacerlo. 📱⏰ "
+        },
         "preCierre": {
             "delivery": "🤩 Y lo mejor es que contamos con entrega a través de *Delivery totalmente gratuito sujeto a cobertura.\n\n*¿Te gustaría que te lo llevemos a tu casa o a tu trabajo?\n\n¡Retomando el tema de la entrega! 🚚⌛ ¿En qué horario prefieres recibir la visita del delivery? ¿Por la mañana ☀️ o por la tarde 🌙?\n\n¡Volviendo al tema del recojo! 🚀 ¿Cuándo te gustaría visitarnos para recibir tu código de atención? ¿Hoy 📅🌞 o mañana 📅🌙?",
             "sinDelivery": "{{customerName}} ¡Te cuento algo importante! 📍📲 En estos momentos, no tenemos cobertura en la dirección que nos proporcionaste. Pero no te preocupes, *¡tenemos una solución!* Acércate a alguno de nuestros centros de atención ubicados en:\n\n-\n\n-\n\n¿Cuál de los centros de atención te queda más cerca?,Solo necesito que me confirmes la hora en la que puedas ir, para así generarte una cita y evitar que hagas largas colas. ¡Estamos aquí para ayudarte! 😉📅",
@@ -63,7 +68,14 @@
     },
     "consultasAdicionañes": {
         "derivaciones": "¡Hola {{customerName}}! Para que puedas recibir una asesoría especializada sobre el estado de tu servicio 📶🔍, te sugerimos que te comuniques al 123☎️ o al 📞0800-00123 desde una línea fija. Este canal es exclusivo para ventas de equipos y nuestro equipo estará encantado de brindarte toda la ayuda que necesitas. 💻 ",
-        "bloqueoDeuda": "📱{{customerName}}, validamos que actualmente cuentas con un importe pendiente de pago ¡No te preocupes! Puedes pagarlo desde donde te encuentres a través de tu banca móvil o de billeteras digitales 💳\n\nEscríbenos cuando hayas realizado el pago ¡Tu nuevo equipo te está esperando! 🤩 ¡no desaproveches esta excelente promoción!"
+        "bloqueoDeuda": "📱{{customerName}}, validamos que actualmente cuentas con un importe pendiente de pago ¡No te preocupes! Puedes pagarlo desde donde te encuentres a través de tu banca móvil o de billeteras digitales 💳\n\nEscríbenos cuando hayas realizado el pago ¡Tu nuevo equipo te está esperando! 🤩 ¡no desaproveches esta excelente promoción!",
+        "noResponde": {
+            "5min": "😄📱 ¡Nos encanta seguir en contacto contigo! ¡Estamos esperando con ansias tu respuesta! 😊",
+            "15min": "⏰⚡️Si estás ocupado ahora, no hay problema. ¡No dudes en escribirnos cuando tengas tiempo! Estaremos encantados de mostrarte las promociones disponibles para ti. 😊🎉 Te atendió *{{userName}}*. ¡Que tengas un excelente día! 🌟🙌"
+        }
     },
-    "noResponde": "😄📱 ¡Nos encanta seguir en contacto contigo! ¡Estamos esperando con ansias tu respuesta! 😊\n\n⏰⚡️Si estás ocupado ahora, no hay problema. ¡No dudes en escribirnos cuando tengas tiempo! Estaremos encantados de mostrarte las promociones disponibles para ti. 😊🎉 Te atendió *XXXX XXXXX*. ¡Que tengas un excelente día! 🌟🙌"
+    "despedida": {
+        "venta": "*{{customerName}}*, ¡Fue un placer atenderte y gracias por tu tiempo! 😊 Si en el futuro tienes alguna pregunta o consulta, no dudes en preguntar por mí. También *puedes recomendar a tus familiares o amigos 👨‍👩‍👧‍👦 que deseen renovar sus dispositivos* ¡Estoy aquí para ayudarte! Te atendió *{{userName}}*, ¡hasta pronto! 🥳",
+        "noVenta": "**{{customerName}}** 😃 Recuerda que siempre puedes escribirnos aquí para obtener más información sobre nuestras ofertas y promociones. ¡Pregunta por mí *{{userName}}* y estaré encantado de ayudarte!, También *puedes recomendar a tus familiares o amigos 👨‍👩‍👧‍👦 que deseen renovar sus dispositivos*. ¡Que tengas un excelente día y gracias por tu tiempo! 🌟📱"
+    }
 }

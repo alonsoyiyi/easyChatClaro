@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around; /* Distribuye los enlaces equitativamente */
+}
